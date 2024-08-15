@@ -8,7 +8,7 @@ pipeline {
         stage('checkout'){
             steps{
                 git branch: 'master',
-                    url: 'https://github.com/wakaleo/game-of-life.git'
+                    url: 'https://github.com/devops-pr-ctice/game-of-life.git'
             }
         }
         stage('build'){
